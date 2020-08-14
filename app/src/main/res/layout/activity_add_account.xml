@@ -17,7 +17,6 @@
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHighlight="@color/colorPrimaryDark"
-        android:textColorHint="?android:attr/navigationBarColor"
         android:textColorLink="@color/colorPrimaryDark"
         android:textCursorDrawable="@android:color/holo_red_light"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,11 +27,9 @@
         app:layout_constraintVertical_bias="0.288" />
 
     <Spinner
-        android:id="@+id/accListSpinner"
+        android:id="@+id/accTypeSpinner"
         android:layout_width="299dp"
         android:layout_height="51dp"
-
-
         android:spinnerMode="dropdown"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +60,7 @@
         app:layout_constraintVertical_bias="0.439" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/AddacountDetailsWelcomeMsg"
         android:layout_width="388dp"
         android:layout_height="53dp"
         android:layout_marginStart="12dp"
@@ -79,7 +76,6 @@
         android:layout_width="103dp"
         android:layout_height="48dp"
         android:background="#28D6C0"
-        android:editable="false"
         android:ellipsize="middle"
         android:text="@string/account_save_btn"
         android:textColor="@color/design_default_color_on_secondary"

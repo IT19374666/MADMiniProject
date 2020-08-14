@@ -20,7 +20,7 @@ public class AddAccount extends AppCompatActivity implements AdapterView.OnItemS
                 "Choose Account Type....", "Savings", "Credit card","Cash"
         };
 
-        Spinner s = (Spinner) findViewById(R.id.accListSpinner);
+        Spinner s = (Spinner) findViewById(R.id.accTypeSpinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arraySpinner);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(adapter);

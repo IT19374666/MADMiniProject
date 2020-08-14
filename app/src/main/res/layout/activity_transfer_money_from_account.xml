@@ -8,7 +8,7 @@
     tools:context=".UpdateAccount">
 
     <Spinner
-        android:id="@+id/accTypeSpinner"
+        android:id="@+id/toAccNameSpinner"
         android:layout_width="299dp"
         android:layout_height="51dp"
 
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.212" />
 
     <Spinner
-        android:id="@+id/AccNameSpinner"
+        android:id="@+id/fromAccNameSpinner"
         android:layout_width="299dp"
         android:layout_height="51dp"
         android:spinnerMode="dropdown"
@@ -68,20 +68,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.763" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="95dp"
-        android:layout_height="48dp"
-        android:background="#E11818"
-        android:tint="#0E0D0D"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762"
-        app:srcCompat="@drawable/ic_delete_btn"
-        tools:ignore="VectorDrawableCompat" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+

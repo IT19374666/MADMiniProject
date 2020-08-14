@@ -22,7 +22,7 @@ public class UpdateAccount extends AppCompatActivity implements AdapterView.OnIt
                 "Choose Account Type....", "Savings", "Credit card","Cash"
         };
 
-        Spinner s1 = (Spinner) findViewById(R.id.accListSpinner);
+        Spinner s1 = (Spinner) findViewById(R.id.accTypeSpinner);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arraySpinner1);
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s1.setAdapter(adapter1);
@@ -39,7 +39,7 @@ public class UpdateAccount extends AppCompatActivity implements AdapterView.OnIt
                 "Choose the account name", "Savings1", "Savings2","My creadit","My wallet"
         };
 
-        Spinner s2 = (Spinner) findViewById(R.id.accNameSpinner);
+        Spinner s2 = (Spinner) findViewById(R.id.AccNameSpinner);
         ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arraySpinner2);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s2.setAdapter(adapter2);

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BudgetSetup</string>
+    <string name="eating_out_text">Eating Out</string>
+    <string name="topic_my_budget">My Budget</string>
+    <string name="cell_phone_text">Cell Phone</string>
+    <string name="loan_payment_text">Loan Payment</string>
+    <string name="add_envelope_button">ADD ENVELOPE</string>
+    <string name="phone_price">Rs. 500.00</string>
+    <string name="loan_price">Rs. 2500.00</string>
+    <string name="eating_price">Rs. 1500.00</string>
+    <string name="add_envelope_name_text">Envelope Name :</string>
+    <string name="add_budget_amount_text">Budget Amount :</string>
+    <string name="add_new_envelope_submit_btn">ADD </string>
+    <string name="add_new_name_box">Name</string>
+    <string name="add_new_amount_box">Amount</string>
+    <string name="edit_envelope_name_text">Envelope Name :</string>
+    <string name="edit_budget_amount_text">Budget Amount :</string>
+    <string name="delete_btn">DELETE</string>
+    <string name="save_btn">SAVE</string>
+    <string name="edit_eating_out_box">Eating Out</string>
+    <string name="delete_envelope_name_text">Envelope Name :</string>
+    <string name="confirm_delete_text">Confirm Delete</string>
+    <string name="delete_description">Are you sure you want to delete this Envelope ?</string>
+    <string name="delete_no_btn">NO</string>
+    <string name="delete_yes_btn">YES</string>
+    <string name="delete_budget_amount_text">Budget Amount :</string>
+</resources>

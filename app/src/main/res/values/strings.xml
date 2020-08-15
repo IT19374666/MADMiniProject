@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Transaction2</string>
+    <string name="transaction_prompt">Choose a type</string>
+
+    <string-array name="transaction_arrays">
+        <item>Income</item>
+        <item>Expence</item>
+
+    </string-array>
+
+    <string name="t_category_prompt">Choose a category</string>
+    <string-array name="t_category_arrays">
+        <item>Electric</item>
+        <item>Water</item>
+        <item>Rental</item>
+        <item>Salary</item>
+        <item>Fee</item>
+
+    </string-array>
+</resources>

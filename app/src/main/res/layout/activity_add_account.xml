@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#c2e9fb"
     android:textAlignment="center"
     tools:context=".AddAccount">
 
@@ -17,27 +18,30 @@
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="#720884"
         android:textColorLink="@color/colorPrimaryDark"
         android:textCursorDrawable="@android:color/holo_red_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <Spinner
         android:id="@+id/accTypeSpinner"
-        android:layout_width="299dp"
-        android:layout_height="51dp"
+        android:layout_width="356dp"
+        android:layout_height="49dp"
+        android:layout_margin="1dp"
+        android:background="@android:color/holo_blue_light"
         android:spinnerMode="dropdown"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <EditText
         android:id="@+id/editAccountBalance"
@@ -49,7 +53,7 @@
         android:inputType="numberDecimal"
         android:textColor="@color/design_default_color_error"
         android:textColorHighlight="?android:attr/colorForeground"
-        android:textColorHint="?attr/colorButtonNormal"
+        android:textColorHint="#130F0F"
         android:textColorLink="@color/design_default_color_on_secondary"
         android:textCursorDrawable="@color/design_default_color_on_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,8 +68,10 @@
         android:layout_width="388dp"
         android:layout_height="53dp"
         android:layout_marginStart="12dp"
+        android:fontFamily="cursive"
         android:text="@string/add_account_text_msg"
-        android:textSize="18sp"
+        android:textColor="#D11111"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -75,7 +81,7 @@
         android:id="@+id/saveAccountBtn"
         android:layout_width="103dp"
         android:layout_height="48dp"
-        android:background="#28D6C0"
+        android:background="#FF4500"
         android:ellipsize="middle"
         android:text="@string/account_save_btn"
         android:textColor="@color/design_default_color_on_secondary"
@@ -87,5 +93,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/acc_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#39ff14"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

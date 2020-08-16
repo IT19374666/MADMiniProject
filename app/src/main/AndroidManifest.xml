@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MyAccount"
+            android:label="@string/My_Acount_page"/>
+        <activity
             android:name=".TransferMoneyFromAccount"
-            android:label="Transfer Money">
-        </activity>
+            android:label="@string/page_transfer_money"></activity>
         <activity
             android:name=".UpdateAccount"
-            android:label="@string/page_update_account"></activity>
+            android:label="@string/page_update_account" />
         <activity
             android:name=".AddAccount"
-            android:label="@string/page_add_account"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:label="@string/page_add_account" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/page_account">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -27,18 +27,19 @@
 
     <TextView
         android:id="@+id/accTot"
+        
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1200.00"
-        android:textColor="@android:color/holo_blue_dark"
+        android:text="5000.00"
+        android:textColor="#0004FF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.311"
-        tools:text="1200.00" />
+        tools:text="5000.00" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

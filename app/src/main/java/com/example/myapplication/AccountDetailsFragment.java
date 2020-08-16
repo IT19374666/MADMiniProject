@@ -66,10 +66,6 @@ public class AccountDetailsFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_account_details, container, false);
     }
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        MenuItem fav = menu.add("add");
-
-    }
 
 
 }

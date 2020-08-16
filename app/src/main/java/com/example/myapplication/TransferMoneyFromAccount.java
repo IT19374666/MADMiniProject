@@ -2,8 +2,11 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class TransferMoneyFromAccount extends AppCompatActivity {
@@ -13,6 +16,7 @@ public class TransferMoneyFromAccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer_money_from_account);
 
+        //Impement spinners
 
         String[] arraySpinner1= new String[]{
                 "Choose the account from....", "Savings1", "Savings2","My creadit","My wallet"
@@ -31,6 +35,18 @@ public class TransferMoneyFromAccount extends AppCompatActivity {
         ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arraySpinner2);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s2.setAdapter(adapter2);
+
+        //Implemet the onclick event for back button
+
+        Button button = findViewById(R.id.account_back_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(TransferMoneyFromAccount.this, MyAccount.class);
+                startActivity(intent);
+
+            }
+        });
+
 
 
 
